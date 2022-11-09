@@ -107,7 +107,7 @@ public class a01 extends JFrame implements Runnable, ThreadFactory {
 	            try {
 	                result = new MultiFormatReader().decode(bitmap);
 	            } catch (NotFoundException e) {
-	                //No result...
+	                
 	            }
 
 	            if (result != null) {
